@@ -15,7 +15,7 @@
     // set plugin elements/props
     self.button = document.createElement('button');
     self.button.innerText = 'italic';
-    self.name = 'ItalicEditionPlugin';
+    self.name = 'italicEditionPlugin';
     self.tag = 'i';
   }
 
