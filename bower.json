@@ -1,0 +1,8 @@
+{
+  "name": "editore-italic-plugin",
+  "version": "1.0.0",
+  "main": "src/editore-italic-plugin.js",
+  "ignore": [],
+  "dependencies": {},
+  "devDependencies": {}
+}
