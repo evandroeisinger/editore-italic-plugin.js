@@ -3,23 +3,21 @@
 #### basic usage
 It's easy to use! Load [editor.js](https://github.com/evandroeisinger/editore.js) into your application, instantiate it and register the new edition plugin.
 
-```javascript
-var editor = new Editor(document.getElementById('editor'));
-// then register!
-editor.register('edition', window.EditoreItalicPlugin);
-```
-
 #### install
+Available on npm: `npm install editore-italic-plugin` or [directly download](https://github.com/evandroeisinger/editore-italic-plugin.js/raw/master/src/editore-italic-plugin.js)
 
-Script:
-```html
-<script src="editore-italic-plugin.js"></script>
-```
-CommonJS:
-``` 
-npm install editore-italic-plugin --save
-```
+```javascript
+var editor = new Editor(document.getElementById('editor')),
+    ItalicPlugin;
 
+// Global
+ItalicPlugin = window.EditoreItalicPlugin;
+// CommonJS
+ItalicPlugin = require('editore-italic-plugin');
+
+// then register!
+editor.register('edition', ItalicPlugin);
+```
 ---
 #### support
 - chrome: ?
