@@ -16,7 +16,7 @@ ItalicPlugin = window.EditoreItalicPlugin;
 ItalicPlugin = require('editore-italic-plugin');
 
 // then register!
-editor.registerEditionComponent(ItalicPlugin);
+editor.registerEditionPlugin(ItalicPlugin);
 ```
 ---
 #### support
