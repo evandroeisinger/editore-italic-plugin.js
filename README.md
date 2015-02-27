@@ -1,10 +1,10 @@
 # editore.js italic plugin [![npm version](https://badge.fury.io/js/editore-italic-plugin.svg)](http://badge.fury.io/js/editore-link-plugin)
 
-#### basic usage
-It's easy to use! Load [editor.js](https://github.com/evandroeisinger/editore.js) into your application, instantiate it and register the new edition plugin.
-
 #### install
 Available on npm: `npm install editore-italic-plugin` or [directly download](https://github.com/evandroeisinger/editore-italic-plugin.js/raw/master/src/editore-italic-plugin.js)
+
+#### basic usage
+It's easy to use! Load [editor.js](https://github.com/evandroeisinger/editore.js) into your application, instantiate it and register the new edition plugin.
 
 ```javascript
 var editor = new Editor(document.getElementById('editor')),
