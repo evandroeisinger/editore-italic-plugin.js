@@ -7,7 +7,7 @@ Available on npm: `npm install editore-italic-plugin` or [directly download](htt
 It's easy to use! Load [editor.js](https://github.com/evandroeisinger/editore.js) into your application, instantiate it and register the new **edition** plugin.
 
 ```javascript
-var editor = new Editor(document.getElementById('editor')),
+var editore = new Editore(document.getElementById('editor')),
     ItalicPlugin;
 
 // Global
@@ -16,7 +16,7 @@ ItalicPlugin = window.EditoreItalicPlugin;
 ItalicPlugin = require('editore-italic-plugin');
 
 // then register!
-editor.registerEditionComponent(ItalicPlugin);
+editore.registerEditionComponent(ItalicPlugin);
 ```
 ---
 #### support
