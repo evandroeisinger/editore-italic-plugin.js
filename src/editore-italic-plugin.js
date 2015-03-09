@@ -23,6 +23,7 @@
     action: function(field, e) {
       e.preventDefault();
       document.execCommand('italic', false, null);
+      this.triggerInput();
     },
 
     destroy: function() {}
